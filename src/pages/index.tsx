@@ -14,7 +14,7 @@ import Resume from '../components/Sections/Resume';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = 'React Resume';
+  const title = "Alexander's Resume";
   const description = "";
 
   return (

@@ -10,7 +10,7 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/rust.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -86,28 +86,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: <p>
-  I'm a permanent student, reader, and learner.
-  <br/>
-  Software engineering is my passion and I find it most satisfying to help
-  interpret creative ideas into useful software tools.
-    <br/>
-  I value being in an environment where there is good opportunity to learn and
-  where there are interesting technology challenges to encounter.
-    <br/>
-  I'm a fullstack engineer by trade. Keeping up with programming languages,
-  frameworks, and design patterns is the permanent education we sign up for, yet
-  it's also the means by which we work our creative magic. I believe it is
-  important not to become compartmentalized or to let a skill set stagnate.
-    <br/>
-  My tech love remains Rust programming language. In this context as a theologian
-  I would exclaim along with the timeless Bible verse "but the greatest of these
-  is love" also "but the greatest of these is Rust".
-    <br/>
-  And yet, most skills can be learned and improved, but the ability to solve problems
-  and learn plus a mindset of interpersonal communication help me to contribute to nurturing
-  a collaborative and roundtable environment where people feel empowered, valued and effective members of a team.
-  </p>,
+  description: 'I\'m a permanent student, reader, and learner. Software engineering is my passion and I find it most satisfying to help interpret creative ideas into useful software tools.\n' +
+      '\n' +
+      'I value being in an environment where there is good opportunity to learn and where there are interesting technology challenges to encounter.\n' +
+      '\n' +
+      'I\'m a fullstack engineer by trade. Keeping up with programming languages, frameworks, and design patterns is the permanent education we sign up for, yet it\'s also the means by which we work our creative magic. I believe it is important not to become compartmentalized or to let a skill set stagnate.\n' +
+      '\n' +
+      'My tech love remains Rust programming language. In this context as a theologian I would exclaim along with the timeless Bible verse "but the greatest of these is love" also "but the greatest of these is Rust".\n' +
+      '\n' +
+      'And yet, most skills can be learned and improved, but the ability to solve problems and learn plus a mindset of interpersonal communication help me to contribute to nurturing a collaborative and roundtable environment where people feel empowered, valued and effective members of a team.',
   aboutItems: [
     {label: 'Location', text: 'Sofia, BG', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
