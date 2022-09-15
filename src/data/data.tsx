@@ -10,9 +10,9 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/rust.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import profilepic from '../images/profilepic.jpg';
+import heroImage from '../images/rust.webp';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
