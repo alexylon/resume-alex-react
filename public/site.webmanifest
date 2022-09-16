@@ -1,10 +1,6 @@
 {
-  "name": "react-resume-template",
-  "short_name": "react-resume-template",
-  "icons": [
-    {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"},
-    {"src": "/icon-512.png", "type": "image/png", "sizes": "512x512"}
-  ],
+  "name": "resume-alex-react",
+  "short_name": "resume-alex-react",
   "theme_color": "#515455",
   "background_color": "#515455",
   "display": "standalone"

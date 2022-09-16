@@ -1,3 +1,4 @@
+import {ChevronDownIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
@@ -8,7 +9,7 @@ import Section from '../Layout/Section';
 const About: FC = memo(() => {
     const {profileImageSrc, description, aboutItems} = aboutData;
     return (
-        <Section className="bg-neutral-800" sectionId={SectionId.About}>
+        <Section className="bg-neutral-800 relative" sectionId={SectionId.About}>
             <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
                 {!!profileImageSrc && (
                     <div className="col-span-1 flex justify-center md:justify-start">
@@ -36,6 +37,12 @@ const About: FC = memo(() => {
                             </li>
                         ))}
                     </ul>
+                </div>
+                <div className="absolute inset-x-0 bottom-6 flex justify-center">
+                    <a className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+                        href={`/#${SectionId.Resume}`}>
+                        <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
+                    </a>
                 </div>
             </div>
         </Section>
