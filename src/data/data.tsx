@@ -10,9 +10,9 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import profilepic from '../images/profilepic.jpg';
-import heroImage from '../images/rust.webp';
+import heroImage from '../images/header-background.jpg';
+import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import profilePic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -63,6 +63,8 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Sofia based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">DXC Technology</strong>.
+        <br/>
+        I am in love with <strong className="text-stone-100">Rust</strong> programming language.
       </p>
     </>
   ),
@@ -85,14 +87,14 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: profilePic,
   description: 'I\'m a permanent student, reader, and learner. Software engineering is my passion and I find it most satisfying to help interpret creative ideas into useful software tools.\n' +
       '\n' +
       'I value being in an environment where there is good opportunity to learn and where there are interesting technology challenges to encounter.\n' +
       '\n' +
       'I\'m a fullstack engineer by trade. Keeping up with programming languages, frameworks, and design patterns is the permanent education we sign up for, yet it\'s also the means by which we work our creative magic. I believe it is important not to become compartmentalized or to let a skill set stagnate.\n' +
       '\n' +
-      'My tech love remains Rust programming language. In this context as a theologian I would exclaim along with the timeless Bible verse "but the greatest of these is love" also "but the greatest of these is Rust".\n' +
+      'My tech love remains Rust programming language. In this particular context, as a theologian, I would exclaim along with the timeless Bible verse "but the greatest of these is love" also "but the greatest of these is Rust".\n' +
       '\n' +
       'And yet, most skills can be learned and improved, but the ability to solve problems and learn plus a mindset of interpersonal communication help me to contribute to nurturing a collaborative and roundtable environment where people feel empowered, valued and effective members of a team.',
   aboutItems: [
@@ -211,7 +213,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
-    image: porfolioImage1,
+    image: portfolioImage1,
   },
 ];
 
