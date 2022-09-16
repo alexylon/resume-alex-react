@@ -14,21 +14,21 @@ import Resume from '../components/Sections/Resume';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const Home: FC = memo(() => {
-  const title = "Alexander's Resume";
-  const description = "";
+    const title = "Alexander's Resume";
+    const description = "";
 
-  return (
-    <Page description={description} title={title}>
-      <Header />
-      <Hero />
-      <About />
-      <Resume />
-      {/*<Portfolio />*/}
-      {/*<Testimonials />*/}
-      <Contact />
-      <Footer />
-    </Page>
-  );
+    return (
+        <Page description={description} title={title}>
+            <Header/>
+            <Hero/>
+            <About/>
+            <Resume/>
+            {/*<Portfolio />*/}
+            {/*<Testimonials />*/}
+            <Contact/>
+            <Footer/>
+        </Page>
+    );
 });
 
 export default Home;
