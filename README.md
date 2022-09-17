@@ -1,7 +1,7 @@
 # React.js Resume Website
 
 This is my personal web resume. I used [tbakerx](https://github.com/tbakerx/react-resume-template) as a starting point 
-with refactoring and changes on my side.
+with refactoring, changes and upgrades on my side.
 
 I also migrated the `yarn` scripts to `npm`, as the latter is my personal choice of package manager.
 

@@ -1,4 +1,4 @@
-import {ChevronDoubleUpIcon} from '@heroicons/react/outline';
+import {ChevronDoubleUpIcon} from '@heroicons/react/24/outline';
 import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';

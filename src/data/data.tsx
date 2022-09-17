@@ -1,12 +1,12 @@
 import {
     AcademicCapIcon,
-    // CalendarIcon,
-    DownloadIcon,
+    ArrowDownTrayIcon,
+    BuildingOfficeIcon,
     FlagIcon,
     MapIcon,
-    OfficeBuildingIcon,
     SparklesIcon,
-} from '@heroicons/react/outline';
+    TrophyIcon
+} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -74,7 +74,7 @@ export const heroData: Hero = {
             href: "assets/resume.pdf",
             text: 'Resume',
             primary: true,
-            Icon: DownloadIcon,
+            Icon: ArrowDownTrayIcon,
         },
         {
             href: `#${SectionId.Contact}`,
@@ -100,11 +100,11 @@ export const aboutData: About = {
         'And yet, most skills can be learned and improved, but the ability to solve problems and learn plus a mindset of interpersonal communication help me to contribute to nurturing a collaborative and roundtable environment where people feel empowered, valued and effective members of a team.',
     aboutItems: [
         {label: 'Location', text: 'Sofia, BG', Icon: MapIcon},
-        // {label: 'Age', text: '29', Icon: CalendarIcon},
+        {label: 'Certification', text: 'Oracle Certified Associate, Java SE 8', Icon: TrophyIcon},
         {label: 'Nationality', text: 'Bulgarian', Icon: FlagIcon},
-        {label: 'Interests', text: 'Reading, Photography, Theology', Icon: SparklesIcon},
+        {label: 'Interests', text: 'Technology, Photography, Philosophy', Icon: SparklesIcon},
         {label: 'Study', text: 'Sofia University', Icon: AcademicCapIcon},
-        {label: 'Employment', text: 'DXC Technology', Icon: OfficeBuildingIcon},
+        {label: 'Employment', text: 'DXC Technology', Icon: BuildingOfficeIcon},
     ],
 };
 
@@ -278,6 +278,16 @@ export const experience: TimelineItem[] = [
             </p>
         ),
     },
+    {
+        date: 'March 2000 - April 2020',
+        location: 'KAME',
+        title: 'Technical Product Manager',
+        content: (
+            <p>
+
+            </p>
+        ),
+    },
 ];
 
 /**
@@ -310,7 +320,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
     description: "",
-    headerText: 'Get in touch.',
+    headerText: 'Get in touch',
     // description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
     items: [
         {
