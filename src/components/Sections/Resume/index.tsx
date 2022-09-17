@@ -10,7 +10,7 @@ import TimelineItem from './TimelineItem';
 const Resume: FC = memo(() => {
     return (
         <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
-            <div style={{margin: -72}}>
+            <div style={{marginBottom: -40}}>
                 <div className="flex flex-col divide-y-2 divide-neutral-300" style={{marginBottom: 32}}>
                     <ResumeSection title="Skills">
                         {/*<h3 className="pb-8">Technical Skills</h3>*/}
