@@ -100,9 +100,9 @@ export const aboutData: About = {
         'And yet, most skills can be learned and improved, but the ability to solve problems and learn plus a mindset of interpersonal communication help me to contribute to nurturing a collaborative and roundtable environment where people feel empowered, valued and effective members of a team.',
     aboutItems: [
         {label: 'Location', text: 'Sofia, BG', Icon: MapIcon},
-        {label: 'Certification', text: 'Oracle Certified Associate, Java SE 8', Icon: TrophyIcon},
+        {label: 'Certification', text: 'Oracle CA, Java SE 8', Icon: TrophyIcon},
         {label: 'Nationality', text: 'Bulgarian', Icon: FlagIcon},
-        {label: 'Interests', text: 'Technology, Photography, Philosophy', Icon: SparklesIcon},
+        {label: 'Interests', text: 'Technology, Byzantine Philosophy', Icon: SparklesIcon},
         {label: 'Study', text: 'Sofia University', Icon: AcademicCapIcon},
         {label: 'Employment', text: 'DXC Technology', Icon: BuildingOfficeIcon},
     ],
@@ -223,31 +223,31 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
     {
-        date: 'April 2020',
+        date: 'Apr. 2020',
         location: 'Camplight',
         title: 'React.js Fundamentals',
         content: <p></p>,
     },
     {
-        date: 'October 2019',
-        location: 'Sofia University "St. Kliment Ohridski',
+        date: 'Oct. 2019',
+        location: 'Sofia University',
         title: 'PhD of Theology',
         content: <p></p>,
     },
     {
-        date: 'March 2018',
+        date: 'Mar. 2018',
         location: 'MaxPlus',
         title: 'Java 8 Fundamentals',
         content: <p></p>,
     },
     {
-        date: 'June 1997',
+        date: 'Jun. 1997',
         location: 'University of Forestry',
         title: 'Masters in Engineering',
         content: <p></p>,
     },
     {
-        date: 'June 1990',
+        date: 'Jun. 1990',
         location: 'High School of Mathematics',
         title: 'Mathematics',
         content: <p></p>,
@@ -256,7 +256,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
     {
-        date: 'April 2020 - Present',
+        date: 'Apr. 2020 - Present',
         location: 'DXC Technology',
         title: 'Fullstack Developer',
         content: (
@@ -268,7 +268,7 @@ export const experience: TimelineItem[] = [
         ),
     },
     {
-        date: 'September 2019 - April 2020',
+        date: 'Sep. 2019 - Apr. 2020',
         location: 'Camplight',
         title: 'Web Developer Intern',
         content: (
@@ -279,7 +279,7 @@ export const experience: TimelineItem[] = [
         ),
     },
     {
-        date: 'March 2000 - April 2020',
+        date: 'Mar. 2000 - Apr. 2020',
         location: 'KAME',
         title: 'Technical Product Manager',
         content: (
