@@ -2,6 +2,9 @@ import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import {Link} from 'react-scroll'
 
 import {aboutData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
@@ -38,12 +41,16 @@ const About: FC = memo(() => {
                         ))}
                     </ul>
                 </div>
+                <Link smooth={true} spy={true} to={SectionId.Resume}>
                 <div className="absolute inset-x-0 bottom-6 flex justify-center">
-                    <a className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
-                        href={`/#${SectionId.Resume}`}>
+                    <div
+                        className="rounded-full bg-white p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+                        style={{cursor: "pointer"}}
+                    >
                         <ChevronDownIcon className="h-5 w-5 bg-transparent sm:h-6 sm:w-6" />
-                    </a>
+                    </div>
                 </div>
+                </Link>
             </div>
         </Section>
     );

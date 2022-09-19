@@ -1,5 +1,8 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import {FC, memo} from 'react';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import {Link} from 'react-scroll'
 
 import {education, experience, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
@@ -31,12 +34,16 @@ const Resume: FC = memo(() => {
                         ))}
                     </ResumeSection>
                 </div>
+                <Link smooth={true} spy={true} to={SectionId.Contact}>
                 <div className="flex justify-center">
-                    <a className="rounded-full bg-[#262626] p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
-                       href={`/#${SectionId.Contact}`}>
+                    <div
+                        className="rounded-full bg-[#262626] p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"
+                        style={{cursor: "pointer"}}
+                    >
                         <ChevronDownIcon className="h-5 w-5 bg-transparent text-white sm:h-6 sm:w-6"/>
-                    </a>
+                    </div>
                 </div>
+                </Link>
             </div>
         </Section>
     );
