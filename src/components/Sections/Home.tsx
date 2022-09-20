@@ -6,15 +6,15 @@ import {FC, memo} from 'react';
 // @ts-ignore
 import {Link} from 'react-scroll'
 
-import {heroData, SectionId} from '../../data/data';
+import {homeData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
-const Hero: FC = memo(() => {
-    const {imageSrc, name, description, actions} = heroData;
+const Home: FC = memo(() => {
+    const {imageSrc, name, description, actions} = homeData;
 
     return (
-        <Section noPadding sectionId={SectionId.Hero}>
+        <Section noPadding sectionId={SectionId.Home}>
             <div className="relative flex h-screen w-screen items-center justify-center">
                 <Image
                     alt={`${name}-image`}
@@ -64,5 +64,5 @@ const Hero: FC = memo(() => {
     );
 });
 
-Hero.displayName = 'Hero';
-export default Hero;
+Home.displayName = 'Home';
+export default Home;

@@ -20,14 +20,14 @@ export interface HomepageMeta {
 /**
  * Hero section
  */
-export interface Hero {
+export interface Home {
     imageSrc: string;
     name: string;
     description: JSX.Element;
-    actions: HeroActionItem[];
+    actions: HomeActionItem[];
 }
 
-interface HeroActionItem {
+interface HomeActionItem {
     href: string;
     text: string;
     primary?: boolean;

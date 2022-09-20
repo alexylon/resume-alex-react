@@ -10,7 +10,7 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.jpg';
+import homeImage from '../images/home-background.jpg';
 import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import profilePic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -18,7 +18,7 @@ import {
     About,
     ContactSection,
     ContactType,
-    Hero,
+    Home,
     HomepageMeta,
     PortfolioItem,
     SkillGroup,
@@ -40,7 +40,7 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
-    Hero: 'home',
+    Home: 'home',
     About: 'about',
     Contact: 'contact',
     Portfolio: 'portfolio',
@@ -53,10 +53,10 @@ export const SectionId = {
 export type SectionId = typeof SectionId[keyof typeof SectionId];
 
 /**
- * Hero section
+ * Home section
  */
-export const heroData: Hero = {
-    imageSrc: heroImage,
+export const homeData: Home = {
+    imageSrc: homeImage,
     name: `I'm Alexander Alexandrov.`,
     description: (
         <>
@@ -76,11 +76,11 @@ export const heroData: Hero = {
             primary: true,
             Icon: ArrowDownTrayIcon,
         },
-        {
-            href: `#${SectionId.Contact}`,
-            text: 'Contact',
-            primary: false,
-        },
+        // {
+        //     href: `#${SectionId.Contact}`,
+        //     text: 'Contact',
+        //     primary: false,
+        // },
     ],
 };
 

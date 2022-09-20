@@ -24,16 +24,11 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  svgo: {
-    multipass: true,
-    plugins: ['removeDimensions'],
-  },
-  strictMode: true,
   swcMinify: true,
   trailingSlash: false,
   images: {
     loader: 'akamai',
-    path: ''
+    path: '/'
   }
 };
 
