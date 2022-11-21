@@ -10,6 +10,7 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import MastodonIcon from '../components/Icon/MastodonIcon';
 import homeImage from '../images/home-background.jpg';
 import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import profilePic from '../images/profilepic.jpg';
@@ -352,4 +353,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/alexylon'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/alexandrovalexander/'},
+    {label: 'Mastodon', Icon: MastodonIcon, href: 'https://itdev.social/@alex', rel: "me"},
 ];
