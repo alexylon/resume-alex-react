@@ -340,14 +340,14 @@ export const contact: ContactSection = {
             href: 'https://www.linkedin.com/in/alexandrovalexander/',
         },
         {
-            type: ContactType.Github,
-            text: 'alexylon',
-            href: 'https://github.com/alexylon',
-        },
-        {
             type: ContactType.Mastodon,
             text: '@aal@ohai.social',
             href: 'https://ohai.social/@aal',
+        },
+        {
+            type: ContactType.Github,
+            text: 'alexylon',
+            href: 'https://github.com/alexylon',
         },
     ]
 };
