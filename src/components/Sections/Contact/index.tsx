@@ -1,4 +1,4 @@
-import {DevicePhoneMobileIcon, EnvelopeIcon,MapPinIcon} from '@heroicons/react/24/outline';
+import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
 
@@ -8,6 +8,7 @@ import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
 import LinkedInIcon from '../../Icon/LinkedInIcon';
+import MastodonIcon from '../../Icon/MastodonIcon';
 import TwitterIcon from '../../Icon/TwitterIcon';
 import Section from '../../Layout/Section';
 // import ContactForm from './ContactForm';
@@ -21,6 +22,7 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
     [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
     [ContactType.Twitter]: {Icon: TwitterIcon, srLabel: 'Twitter'},
     [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
+    [ContactType.Mastodon]: {Icon: MastodonIcon, srLabel: 'Mastodon'},
 };
 
 const Contact: FC = memo(() => {
@@ -42,7 +44,7 @@ const Contact: FC = memo(() => {
                         {items.map(({type, text, href}) => {
                             const {Icon, srLabel} = ContactValueMap[type];
                             return (
-                                <div key={srLabel}>
+                                <div key={srLabel} style={{"paddingBottom": "0.1em"}}>
                                     <dt className="sr-only">{srLabel}</dt>
                                     <dd className="flex items-center">
                                         <a
