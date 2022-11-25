@@ -118,23 +118,23 @@ export const skills: SkillGroup[] = [
         skills: [
             {
                 name: 'React',
-                level: 8,
+                level: 7,
             },
             {
-                name: 'Typescript',
+                name: 'TypeScript',
                 level: 7,
             },
             {
                 name: 'WebAssembly (Wasm) with Rust',
-                level: 4,
+                level: 3,
             },
             {
                 name: 'Cytoscape.js',
-                level: 4,
+                level: 3,
             },
             {
                 name: 'GraphQL',
-                level: 4,
+                level: 3,
             },
         ],
     },
@@ -142,12 +142,12 @@ export const skills: SkillGroup[] = [
         name: 'Backend development',
         skills: [
             {
-                name: 'Java',
-                level: 6,
-            },
-            {
                 name: 'Rust',
                 level: 5,
+            },
+            {
+                name: 'Java',
+                level: 6,
             },
             {
                 name: 'PostgreSQL',
@@ -156,10 +156,6 @@ export const skills: SkillGroup[] = [
             {
                 name: 'Spring MVC',
                 level: 4,
-            },
-            {
-                name: 'Maven',
-                level: 7,
             },
             {
                 name: 'iBATIS / MyBatis',
@@ -172,6 +168,10 @@ export const skills: SkillGroup[] = [
         skills: [
             {
                 name: 'Terraform',
+                level: 3,
+            },
+            {
+                name: 'AWS (Lambda, CodeBuild, EventBridge, CloudWatch)',
                 level: 4,
             },
             {
@@ -262,9 +262,9 @@ export const experience: TimelineItem[] = [
         title: 'Fullstack Developer',
         content: (
             <p>
-                Working on various projects, using Java, JavaScript / TypeScript,
-                React.js, Rust, Terraform, Cytoscape.js, Spring MVC + JSP, PostgreSQL,
-                iBATIS, HTML, Amazon Web Services.
+                Working on various projects, using Rust, TypeScript,
+                React.js, Java, Terraform, Cytoscape.js, Spring MVC + JSP, PostgreSQL,
+                iBATIS, Amazon Web Services.
             </p>
         ),
     },
