@@ -345,6 +345,11 @@ export const contact: ContactSection = {
             href: 'https://fosstodon.org/@aal',
         },
         {
+            type: ContactType.Mastodon,
+            text: '@aal@ohai.social',
+            href: 'https://ohai.social/@aal',
+        },
+        {
             type: ContactType.Github,
             text: 'alexylon',
             href: 'https://github.com/alexylon',
@@ -359,4 +364,5 @@ export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/alexylon'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/alexandrovalexander/'},
     {label: 'Mastodon', Icon: MastodonIcon, href: 'https://fosstodon.org/@aal', rel: "me"},
+    {label: 'Mastodon', Icon: MastodonIcon, href: 'https://ohai.social/@aal', rel: "me"},
 ];

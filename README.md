@@ -1,4 +1,4 @@
-# Alexander Alexandrov's Website
+## Alexander Alexandrov's Website
 
 This is my personal web resume. [Check it out here](https://alexandrov.cc/)
 
