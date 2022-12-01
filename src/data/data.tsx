@@ -72,7 +72,7 @@ export const homeData: Home = {
     ),
     actions: [
         {
-            href: "assets/resume.pdf",
+            href: "assets/resume_alexander.pdf",
             text: 'Resume',
             primary: true,
             Icon: ArrowDownTrayIcon,

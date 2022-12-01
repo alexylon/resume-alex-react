@@ -28,7 +28,7 @@ const Home: FC = memo(() => {
                 <div className="z-10  max-w-screen-lg px-4 lg:px-0">
                     <div
                         className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
-                        <h2 className="text-4xl font-bold text-white sm:text-3xl lg:text-5xl">{name}</h2>
+                        <h2 className="text-2xl font-bold text-white sm:text-2xl lg:text-2xl">{name}</h2>
                         {description}
                         <div className="flex gap-x-4 text-neutral-100">
                             <Socials/>
