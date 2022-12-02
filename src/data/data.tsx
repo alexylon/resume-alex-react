@@ -340,12 +340,12 @@ export const contact: ContactSection = {
             href: 'https://www.linkedin.com/in/alexandrovalexander/',
         },
         {
-            type: ContactType.Mastodon,
+            type: ContactType.Mastodon1,
             text: '@aal@fosstodon.org',
             href: 'https://fosstodon.org/@aal',
         },
         {
-            type: ContactType.Mastodon,
+            type: ContactType.Mastodon2,
             text: '@aal@ohai.social',
             href: 'https://ohai.social/@aal',
         },
@@ -353,6 +353,11 @@ export const contact: ContactSection = {
             type: ContactType.Github,
             text: 'alexylon',
             href: 'https://github.com/alexylon',
+        },
+        {
+            type: ContactType.Website,
+            text: 'suus.cc',
+            href: 'https://suus.cc',
         },
     ]
 };
@@ -363,6 +368,6 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/alexylon'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/alexandrovalexander/'},
-    {label: 'Mastodon', Icon: MastodonIcon, href: 'https://fosstodon.org/@aal', rel: "me"},
-    {label: 'Mastodon', Icon: MastodonIcon, href: 'https://ohai.social/@aal', rel: "me"},
+    {label: 'Mastodon 1', Icon: MastodonIcon, href: 'https://fosstodon.org/@aal', rel: "me"},
+    {label: 'Mastodon 2', Icon: MastodonIcon, href: 'https://ohai.social/@aal', rel: "me"},
 ];

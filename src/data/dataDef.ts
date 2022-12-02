@@ -125,7 +125,9 @@ export const ContactType = {
     Facebook: 'Facebook',
     Twitter: 'Twitter',
     Instagram: 'Instagram',
-    Mastodon: 'Mastodon',
+    Mastodon1: 'Mastodon1',
+    Mastodon2: 'Mastodon2',
+    Website: 'Website',
 } as const;
 
 export type ContactType = typeof ContactType[keyof typeof ContactType];

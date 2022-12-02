@@ -14,7 +14,7 @@ import Resume from '../components/Sections/Resume';
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
 const WebPage: FC = memo(() => {
-    const title = "Alexander's Resume";
+    const title = "Alexander Alexandrov";
     const description = "";
 
     return (

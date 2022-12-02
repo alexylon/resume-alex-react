@@ -1,4 +1,4 @@
-import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
+import {DevicePhoneMobileIcon, EnvelopeIcon, GlobeAltIcon,MapPinIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
 
@@ -22,7 +22,9 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
     [ContactType.Facebook]: {Icon: FacebookIcon, srLabel: 'Facebook'},
     [ContactType.Twitter]: {Icon: TwitterIcon, srLabel: 'Twitter'},
     [ContactType.Instagram]: {Icon: InstagramIcon, srLabel: 'Instagram'},
-    [ContactType.Mastodon]: {Icon: MastodonIcon, srLabel: 'Mastodon'},
+    [ContactType.Mastodon1]: {Icon: MastodonIcon, srLabel: 'Mastodon1'},
+    [ContactType.Mastodon2]: {Icon: MastodonIcon, srLabel: 'Mastodon2'},
+    [ContactType.Website]: {Icon: GlobeAltIcon, srLabel: 'Website'},
 };
 
 const Contact: FC = memo(() => {
@@ -56,7 +58,7 @@ const Contact: FC = memo(() => {
                                             target="_blank">
                                             <Icon aria-hidden="true"
                                                   className="h-4 w-4 flex-shrink-0 text-neutral-100 sm:h-5 sm:w-5"/>
-                                            <span className="ml-3 text-sm sm:text-base">{text}</span>
+                                            <span className="ml-3 text-sm sm:text-base" style={{"verticalAlign": "super"}}>{text}</span>
                                         </a>
                                     </dd>
                                 </div>
