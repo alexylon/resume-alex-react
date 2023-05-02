@@ -2,6 +2,8 @@
 
 This is my personal web resume. [Check it out here](https://alexandrov.cc/)
 
+<div align="center"><img align="center" src="/resume-screenshot.jpg" width="2560" alt="Alexander's Website Screenshot"></div>
+
 I used [tbakerx](https://github.com/tbakerx/react-resume-template) as a starting point 
 with refactoring, changes and upgrades on my side:
 
@@ -9,7 +11,7 @@ with refactoring, changes and upgrades on my side:
 - Replaced scrolling between sections with `react-scroll`. Animated scrolling. Active section is set also with `react-scroll`.
 - Fixed iOS navigation issues.
 - Migrate `heroicons` to v.2.
-- Small UI fixes.
+- Other UI fixes.
 
 ### Start in development mode: 
 
