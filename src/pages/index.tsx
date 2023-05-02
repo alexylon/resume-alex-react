@@ -6,7 +6,7 @@ import About from '../components/Sections/About';
 import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
 import Home from '../components/Sections/Home';
-// import Portfolio from '../components/Sections/Portfolio';
+import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 // import Testimonials from '../components/Sections/Testimonials';
 
@@ -23,7 +23,7 @@ const WebPage: FC = memo(() => {
             <Home/>
             <About/>
             <Resume/>
-            {/*<Portfolio />*/}
+            <Portfolio />
             {/*<Testimonials />*/}
             <Contact/>
             <Footer/>

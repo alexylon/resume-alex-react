@@ -34,7 +34,7 @@ const Resume: FC = memo(() => {
                         ))}
                     </ResumeSection>
                 </div>
-                <Link smooth={true} spy={true} to={SectionId.Contact}>
+                <Link smooth={true} spy={true} to={SectionId.Portfolio}>
                 <div className="flex justify-center">
                     <div
                         className="rounded-full bg-[#262626] p-1 ring-white ring-offset-2 ring-offset-gray-700/80 focus:outline-none focus:ring-2 sm:p-2"

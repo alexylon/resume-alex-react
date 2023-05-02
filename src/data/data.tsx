@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import MastodonIcon from '../components/Icon/MastodonIcon';
 import homeImage from '../images/home-background.jpg';
-import portfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import portfolioImage1 from '../images/portfolio/ferrocrypt_screenshot.png';
 import profilePic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -212,9 +212,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
     {
-        title: 'Project title 1',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
+        title: 'Ferrocrypt',
+        description: 'Tiny, easy-to-use, and incredibly secure multiplatform encryption tool with CLI (Command Line Interface) and GUI (Graphical User Interface)',
+        url: 'https://github.com/alexylon/Ferrocrypt',
         image: portfolioImage1,
     },
 ];
@@ -344,11 +344,11 @@ export const contact: ContactSection = {
             text: '@aal@fosstodon.org',
             href: 'https://fosstodon.org/@aal',
         },
-        {
-            type: ContactType.Mastodon2,
-            text: '@aal@ohai.social',
-            href: 'https://ohai.social/@aal',
-        },
+        // {
+        //     type: ContactType.Mastodon2,
+        //     text: '@aal@ohai.social',
+        //     href: 'https://ohai.social/@aal',
+        // },
         {
             type: ContactType.Github,
             text: 'alexylon',
@@ -369,5 +369,5 @@ export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/alexylon'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/alexandrovalexander/'},
     {label: 'Mastodon 1', Icon: MastodonIcon, href: 'https://fosstodon.org/@aal', rel: "me"},
-    {label: 'Mastodon 2', Icon: MastodonIcon, href: 'https://ohai.social/@aal', rel: "me"},
+    // {label: 'Mastodon 2', Icon: MastodonIcon, href: 'https://ohai.social/@aal', rel: "me"},
 ];

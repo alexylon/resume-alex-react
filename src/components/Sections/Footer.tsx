@@ -23,7 +23,7 @@ const Footer: FC = memo(() => (
             <div className="flex gap-x-4 text-neutral-400">
                 <Socials/>
             </div>
-            <span className="text-sm text-neutral-500">© Copyright 2022 Alexander Alexandrov</span>
+            <span className="text-sm text-neutral-500">© Copyright 2023 Alexander Alexandrov</span>
             <div className="text-sm text-neutral-500"><a href="https://github.com/alexylon/alexander-alexandrov-website">source code</a></div>
         </div>
     </div>
