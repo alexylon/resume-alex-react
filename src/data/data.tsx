@@ -63,7 +63,7 @@ export const homeData: Home = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Sofia based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working at{' '}
-        <strong className="text-stone-100">DXC Technology</strong>.
+        <strong className="text-stone-100">Proxiad</strong>.
         <br />I am in love with <strong className="text-stone-100">Rust</strong> programming language.
       </p>
     </>
@@ -104,7 +104,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Bulgarian', Icon: FlagIcon},
     {label: 'Interests', text: 'Technology, Byzantine Philosophy', Icon: SparklesIcon},
     {label: 'Study', text: 'Sofia University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'DXC Technology', Icon: BuildingOfficeIcon},
+    {label: 'Employment', text: 'Proxiad', Icon: BuildingOfficeIcon},
   ],
 };
 
@@ -254,7 +254,7 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'Apr. 2020 - Present',
-    location: 'DXC Technology',
+    location: 'Proxiad',
     title: 'Fullstack Developer',
     content: (
       <p>

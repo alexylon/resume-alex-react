@@ -2,8 +2,6 @@ import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import {Link} from 'react-scroll'
 
 import {aboutData, SectionId} from '../../data/data';
