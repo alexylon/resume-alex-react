@@ -340,11 +340,11 @@ export const contact: ContactSection = {
       text: 'alexylon',
       href: 'https://github.com/alexylon',
     },
-    {
-      type: ContactType.Website,
-      text: 'suus.cc',
-      href: 'https://suus.cc',
-    },
+    // {
+     // type: ContactType.Website,
+     // text: 'suus.cc',
+     // href: 'https://suus.cc',
+   // },
   ],
 };
 
