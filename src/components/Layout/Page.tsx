@@ -21,7 +21,7 @@ const Page: NextPage<PageProps> = memo(({children, title, description}) => {
                 {/* several domains list the same content, make sure google knows we mean this one. */}
                 <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical"/>
 
-                <link href="/favicon.jpg" rel="icon" sizes="any"/>
+                <link href="/favicon.png" rel="icon" sizes="any"/>
                 <link href="/site.webmanifest" rel="manifest"/>
 
                 {/* Open Graph : https://ogp.me/ */}

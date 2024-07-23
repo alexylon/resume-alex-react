@@ -13,6 +13,8 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import MastodonIcon from '../components/Icon/MastodonIcon';
 import homeImage from '../images/home-background.jpg';
 import portfolioImage1 from '../images/portfolio/ferrocrypt_screenshot.png';
+import portfolioImage2 from '../images/portfolio/sofos_screenshot.png';
+import portfolioImage3 from '../images/portfolio/wordle_screenshot.png';
 import profilePic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -138,7 +140,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Rust',
-        level: 6,
+        level: 5,
       },
       {
         name: 'Java',
@@ -209,9 +211,23 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Ferrocrypt',
     description:
-      'Tiny, easy-to-use, and incredibly secure multiplatform encryption tool with CLI (Command Line Interface) and GUI (Graphical User Interface)',
+      'Tiny, easy-to-use, and secure multiplatform encryption/decryption tool with CLI (Command Line Interface) and GUI (Graphical User Interface), written in Rust',
     url: 'https://github.com/alexylon/Ferrocrypt',
     image: portfolioImage1,
+  },
+  {
+    title: 'Sofos',
+    description:
+      'Yet another web GPT chatbot, implemented with React (TypeScript) and Next.js',
+    url: 'https://github.com/alexylon/Sofos',
+    image: portfolioImage2,
+  },
+  {
+    title: 'Wordle',
+    description:
+      'Wordle game implemented with Rust',
+    url: 'https://github.com/alexylon/wordle',
+    image: portfolioImage3,
   },
 ];
 
